@@ -1,0 +1,61 @@
+/* não se deve copiar todas as propriedades do figma, deve-se atentar para as mais importantes como width, color, font-size, line-height*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px; 
+   /* ordem das margens - 0= top, auto= laterais, 72px= botton*/ /*1 prorpiedade = toda margem, 
+   2 = cima/baixo laterais, 3 = cima, laterais, baixo e 4 = toda margem individualmente */ 
+
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+
+span, a {
+   color: #FF9900;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/* para saber os espaços entre os elementos da pagina no figma, segurar alt e posicionar o mouse nos elementos*/
+
+#footer a + a {
+  margin-left: 28px;
+  /* le-se de tras pra frente, pegue o a anterior ao a (a + a) para adicionar a margem no local correto*/
+}
+
+#line {
+  width: 568px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+
+}
+
+#balls {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+}
